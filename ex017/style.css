@@ -4,7 +4,7 @@
 @charset "UTF-8";
 
  body{
-    background-color: violet;
+    background-color: blue;
     font: normal 15pt Arial;
 
 }
@@ -23,6 +23,8 @@ section{
     margin:auto;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.363);
 }
+
+
 footer{
     background-color: rgb(37, 36, 36);
     padding:10px;
