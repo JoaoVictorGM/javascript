@@ -28,7 +28,7 @@ function calcular () {
         valores.push(Number(num.value, valores))/*'push() adiciona um elemento no vetor "valores"*/
         let item = document.createElement('option')/*criará um elemento com nome de item na  tag option do HTML*/
         item.text = `Valor ${num.value} foi adicionado`/*Adicionara um texto na lista com o numero digitado se o número for digitado corretamente */
-        list.appendChild(item)
+        list.appendChild(item)/*appendChild adicionará um elemento filho (children) em um elemento pai(parent), no caso o elemento de 'item' será introduzido em 'list'*/
         resu.innerHTML=''/*Depois que é mostrado a resposta e adicionar denovo limpa a resposta.*/
                        
      }else{
@@ -40,10 +40,10 @@ function calcular () {
     }
     
     function conclusao (){
-    if (valores.lenght == 0)/*lenght é o comprimento do numero*/{
+    if (valores.length == 0)/*length é o comprimento do numero*/{
         window.alert('Adicione valores  antes de finalizar')/*se caso  não foi digitado nenhum número e foi clicado no botão, apareça está mensagem*/
     }else{
-        let tot = valores.length/* para saber quantos elementos o valor tem, por isso usado o '.lenght' para identificar a quantidade*/
+        let tot = valores.length/* para saber quantos elementos o valor tem, por isso usado o '.length' para identificar a quantidade*/
         let maior = valores[0]/*é visto o maior número na posição 0 ou a primeira posição.*/
         let menor = valores[0]/*é visto o menor número na posição 0 ou a primeira posição.*/
         /*no caso maior e o primeiro numero será o primeiro numero*/
