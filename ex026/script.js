@@ -63,7 +63,7 @@ function calcular () {
         resu.innerHTML += `<p> Ao todo, temos ${tot} números cadastrados.</p>`/* += simbolo para concatenação*/ 
         resu.innerHTML += `<p>O maior número é ${maior}.</p>`
         resu.innerHTML +=`<p>O menor número é ${menor}.</p>`
-        resu.innerHTML +=`<p> A soma entre todos os números é ${soma}.`
+        resu.innerHTML +=`<p> A soma entre todos os números é ${soma}.</p>`
         resu.innerHTML += `<p> A média é ${media}.</p>`
     }
 
